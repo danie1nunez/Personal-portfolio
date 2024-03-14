@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(24, 24, 24);
+    color: white;
+    margin:0;
+    padding:0;
+}
+main{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    width: 100%;
+    height: 100px;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color:#ff8002;
+}
+.logo{
+    width: 140px;
+    height: 100%;
+    margin-left: 50px;
+   
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(/Personal-portfolio/assets/images/black-stars.jpeg); 
+    border-bottom: solid 2px white; 
+}
+nav img{
+    height: 150px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+   position:relative;
+}
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    background: #ff8002;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.container-1{
+    
+}
+.portfolio{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+.portfolio h2, h3, h4{
+    text-align: center;
+    font-weight:bolder;
+    font-size: 30px;
+    padding-right: 15px;
+}
+.portfolio h2{
+    margin-bottom: 182px;
+}
+.portfolio h3{
+    margin-bottom: 950px;
+}
+#headings-titles{
+    border-right:3px #ff8002 ;
+    border-right-style:double;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.container-2{
+    width:70%;
+    padding: 10px 5%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+
+}
+#about-me{
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    margin: 30px 10px ;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: groove 3px rgb(162, 162, 162);
+    border-top: groove 3px rgb(162, 162, 162);
+}
+.card{
+    margin: 10px 20px;
+    width: 100%;
+    height: 350px;
+    border: solid 3px white;
+    background-image: url(/Personal-portfolio/assets/images/aurora.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.card a{
+    text-decoration: none;
+}
+.card header{
+    text-decoration: none;
+    width:15%;
+    font-size: 24px;
+    color:#ff8002;
+    font-weight: 200;
+    background-color: white;
+    border: solid 3px white;
+    position: relative;
+
+}
+.small-projects{
+    display:flex; 
+    flex-direction: column;
+    padding: 20px;
+
+}
+.small-card1, .small-card2, .small-card3 {
+    margin: 10px 20px;
+}
+.small-card1 a, .small-card2 a, .small-card3 a{
+    text-decoration: none;
+}
+.small-card1 header, .small-card2 header, .small-card3 header{
+    text-decoration: none;
+    width:15%;
+    font-size: 24px;
+    color:#ff8002;
+    font-weight: 200;
+    background-color: white;
+    border: solid 3px white;
+    position: relative;
+
+}
+.small-card1{
+    width: 100%;
+    height: 200px;
+    display: block;
+    border: solid 3px white;
+    background-image: url(/Personal-portfolio/assets/images/bluestars.webp);
+    background-size:cover;
+    background-position: center;
+}
+
+.small-card2{
+    width: 100%;
+    height: 182px;
+    display: block;
+    border: solid 3px white;
+    background-image: url(/Personal-portfolio/assets/images/dark-aurora.jpg);
+    background-size:cover;
+    background-position: center;
+    
+}
+.small-card3{
+    width: 100%;
+    height: 200px;
+    display:block;
+    border: solid 3px white;
+    background-image: url(/Personal-portfolios/assets/images/many-stars.jpg);
+    background-size:cover;
+    background-position: center;
+
+}
+#contact-me {
+    margin: 30px 10px ;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: groove 3px rgb(162, 162, 162);
+    border-top: groove 3px rgb(162, 162, 162);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#phone, #email, #github{
+    text-decoration: none;
+}
+#phone a, #email a, #github a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
